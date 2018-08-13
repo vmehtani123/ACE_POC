@@ -10,6 +10,6 @@
     </taskdef>
 		
 	<target name="Deploy_POC">
-     <sf:deploy username="" password="" serverurl="" deployRoot="../src" checkonly = "false"/>
+     <sf:deploy deployRoot="../src" checkonly = "false"/>
     </target>
 </project>
